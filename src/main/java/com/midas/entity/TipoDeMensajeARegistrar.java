@@ -39,7 +39,5 @@ public class TipoDeMensajeARegistrar {
     public void setNombreTipoDeMensajeARegistrar(String nombreTipoDeMensajeARegistrar) {
         this.nombreTipoDeMensajeARegistrar = nombreTipoDeMensajeARegistrar;
     }
-             
-    
-    
-}
+                
+ }
