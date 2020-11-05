@@ -5,19 +5,19 @@ package com.midas.entity;
  *
  * @author david roco
  */
-public class Mesaje {
+public class Mensaje {
         
     private int idMensaje;
     private String mensajeText;
     private TipoMensaje tipoMensaje;
 
-    public Mesaje(int idMensaje, String mensajeText, TipoMensaje tipoMensaje) {
+    public Mensaje(int idMensaje, String mensajeText, TipoMensaje tipoMensaje) {
         this.idMensaje = idMensaje;
         this.mensajeText = mensajeText;
         this.tipoMensaje = tipoMensaje;
     }
 
-    public Mesaje() {
+    public Mensaje() {
     }
 
     public int getIdMensaje() {

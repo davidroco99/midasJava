@@ -1,6 +1,9 @@
 
 package com.midas.init;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 
 /**
  *
@@ -24,12 +27,15 @@ public class ControladorRegistrarMensaje {
 
         if (message) {
             mensaje.tipoMensaje = "mensaje";
+            mensaje.menssageText = "message " +DateFormat.getDateInstance(DateFormat.LONG).format(new Date()) + messageText;
         }
         if (warning) {
             mensaje.tipoMensaje = "advertencia";
+            mensaje.menssageText ="advertencia"+DateFormat.getDateInstance(DateFormat.LONG).format(new Date()) + messageText;
         }
         if (error) {
             mensaje.tipoMensaje = "error";
+            mensaje.menssageText ="error"+DateFormat.getDateInstance(DateFormat.LONG).format(new Date()) + messageText;
         }
           
                

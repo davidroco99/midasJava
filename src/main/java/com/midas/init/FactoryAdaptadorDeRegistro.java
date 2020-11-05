@@ -2,6 +2,6 @@
 
 package com.midas.init;
 
-public class FactoryAdaptadorDeRegistro {
-
+public interface FactoryAdaptadorDeRegistro {
+           
 }
